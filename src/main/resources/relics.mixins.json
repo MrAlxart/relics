@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "it.hurts.sskirillss.relics.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "relics.refmap.json",
+  "mixins": [
+    "AbstractChestedHorseMixin",
+    "AbstractContainerMenuMixin",
+    "EnderManMixin",
+    "EntityMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "PiglinAiMixin",
+    "PowderSnowBlockMixin"
+  ],
+  "minVersion": "0.8",
+  "client": [
+    "CameraMixin",
+    "KeyboardHandlerMixin",
+    "MouseHandlerMixin",
+    "ScreenMixin",
+    "WindowMixin"
+  ]
+}

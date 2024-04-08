@@ -1,0 +1,10 @@
+{
+  "parent": "item/generated",
+    "textures": {
+        "layer0": "relics:item/holy_locket"
+    },
+    "overrides": [
+        { "predicate": { "relics:broken": 1 }, "model": "relics:item/holy_locket_broken" }
+    ]
+}
+

@@ -1,0 +1,10 @@
+{
+  "parent": "item/generated",
+    "textures": {
+        "layer0": "relics:item/ice_skates"
+    },
+    "overrides": [
+        { "predicate": { "relics:broken": 1 }, "model": "relics:item/ice_skates_broken" }
+    ]
+}
+
